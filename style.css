@@ -1,0 +1,132 @@
+/**
+ * Theme Name:        Halloween Theme
+ * Theme URI:         https://example.com/fabled-sunset
+ * Description:       Et spooky halloween theme
+ * Version:           1.0.0
+ * Author:            Nickolaj
+ * Author URI:        https://example.com
+ * Tags:              block-patterns, full-site-editing
+ * Text Domain:       fabled-sunset
+ * Domain Path:       /assets/lang
+ * Tested up to:      6.4
+ * Requires at least: 6.2
+ * Requires PHP:      7.4
+ * License:           GNU General Public License v2.0 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+body {
+  background: orange;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+.header img {
+  margin-top: 10px;
+  max-width: 200px;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+}
+
+footer {
+  background-color: orangered;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer h2 {
+  text-align: center;
+}
+
+.Adress {
+  background-color: aqua;
+  display: flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.width {
+  max-width: 200px;
+}
+
+.main-nav ul {
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  text-align: start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav ul li {
+  list-style: none;
+  text-align: left;
+}
+
+.shop {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.shop a {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.heading {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pris {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.slogan {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-left: 60px;
+}
+
+.slogan :first-child {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.slogan :last-child {
+  font-size: 20px;
+  width: 600px;
+  text-align: center;
+}
+
+li {
+  text-align: left;
+}
